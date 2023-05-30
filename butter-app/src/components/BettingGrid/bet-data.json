@@ -1,0 +1,83 @@
+{
+    "live-bets": [
+      {
+        "choices": [
+          "Barry",
+          "Ted Lasso",
+          "Curb Your Enthusiasm",
+          "Schitt's Creek"
+        ],
+        "price": 22342,
+        "title": "Emmy's Best Comedy Series",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-06-29T14:30:00.000Z",
+        "bet-type": "objective",
+        "emoji": "&#127917;"
+      },
+      {
+        "choices": [
+          "Renaissance by Beyoncé",
+          "Ramona Park Broke My Heart by Vince Staples",
+          "Un Verano Sin Ti by Bad Bunny",
+          "The Slow Rush by Tame Impala"
+        ],
+        "price": 9527,
+        "title": "Best Album of 2022",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-06-15T08:45:00.000Z",
+        "bet-type": "subjective",
+        "emoji": "&#127925;"
+      },
+      {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "price": 127833,
+        "title": "Should Colleges Require Test Scores for Admission?",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-07-08T18:15:00.000Z",
+        "bet-type": "subjective",
+        "emoji": "&#127936;"
+      },
+      {
+        "choices": [
+          "Innocent",
+          "Guilty"
+        ],
+        "price": 2391,
+        "title": "Do You Think Andrew Tate is Guilty or Innocent?",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-08-07T10:00:00.000Z",
+        "bet-type": "subjective",
+        "emoji": "&#10067;"
+      },
+      {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "price": 19935,
+        "title": "Was Covid-19 Created In a Lab?",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-09-15T15:45:00.000Z",
+        "bet-type": "subjective",
+        "emoji": "&#129440;"
+      },
+      {
+        "choices": [
+          "The Breakfast Club",
+          "Ferris Bueller's Day Off",
+          "Forrest Gump",
+          "The Shawshank Redemption"
+        ],
+        "price": 1728,
+        "title": "Best Movie to Watch on a Rainy Day",
+        "start-time": "2022-03-03T09:00:00.000Z",
+        "end-time": "2023-06-09T11:30:00.000Z",
+        "bet-type": "subjective",
+        "emoji": "&#127871;"
+      }
+    ]
+  }
+  

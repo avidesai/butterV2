@@ -1,11 +1,11 @@
 import React from 'react';
+import BettingGrid from '../../components/BettingGrid/BettingGrid';
 
 function HomePage() {
   return (
-    <div>
-      <h1>Welcome to the Betting App Home Page</h1>
+    <div className="HomePage">
+      <BettingGrid />
     </div>
-    
   );
 }
 
