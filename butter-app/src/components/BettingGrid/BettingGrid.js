@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { getDatabase, ref, onValue } from 'firebase/database';
 import moment from 'moment';
 import betData from './bet-data.json';
 import './BettingGrid.css';
+import BetModal from '../BetModal/BetModal';
 
 const BettingGrid = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -16,10 +16,6 @@ const BettingGrid = () => {
   const openModal = (title, price, choices) => {
     setModalOpen(true);
     setModalData({ title, price, choices });
-  };
-
-  const closeModal = () => {
-    setModalOpen(false);
   };
 
   useEffect(() => {
@@ -56,21 +52,29 @@ const BettingGrid = () => {
   }, []);
 
   return (
-    <div className="betting-grid">
-      {betOptions.map(option => (
-        <div className="tile" key={option.title}>
-          <div className="tile-timer">
-            <p className="emoji" dangerouslySetInnerHTML={{ __html: option.emoji }}></p>
-            <p className="timer">{option.timeLeft} left</p>
+    <React.Fragment>
+      <div className="betting-grid">
+        {betOptions.map(option => (
+          <div className="tile" key={option.title}>
+            <div className="tile-timer">
+              <p className="emoji" dangerouslySetInnerHTML={{ __html: option.emoji }}></p>
+              <p className="timer">{option.timeLeft} left</p>
+            </div>
+            <h3>{option.title}</h3>
+            <div className="tile-footer">
+              <h4>{Number(option.price).toLocaleString(undefined, { maximumFractionDigits: 0, minimumFractionDigits: 0 })}</h4>
+              <button onClick={() => openModal(option.title, option.price, option.choices)}>Bet</button>
+            </div>
           </div>
-          <h3>{option.title}</h3>
-          <div className="tile-footer">
-            <h4>{Number(option.price).toLocaleString(undefined, { maximumFractionDigits: 0, minimumFractionDigits: 0 })}</h4>
-            <button onClick={() => openModal(option.title, option.price, option.choices)}>Bet</button>
-          </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+      <BetModal
+        isOpen={modalOpen}
+        closeModal={() => setModalOpen(false)}
+        handleBetAmount={handleBetAmount}
+        data={modalData}
+      />
+    </React.Fragment>
   );
 };
 

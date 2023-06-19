@@ -2,28 +2,29 @@
 
 .betting-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  margin-top: 110px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 120px;
+  margin-bottom: 35px;
   padding: 0 40px;
 }
 
 .tile {
   background-color: #fff;
   font-family: 'Rubik', sans-serif;
-  padding: 18px;
-  border-radius: 10px;
-  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 15px;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .tile-timer {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .tile-timer .emoji {
@@ -32,7 +33,7 @@
 }
 
 .tile-footer {
-margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,33 +41,45 @@ margin-top: 20px;
 }
 
 .tile-footer h4 {
-  margin: 0;
+  margin-top: 0px;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(41, 41, 41);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(0, 156, 31);
 }
 
 .tile h3 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 18px;
   font-weight: 400;
   color: rgb(41, 41, 41);
 }
 
 .tile-footer button {
-  background-color: #4caf50;
-  color: #fff;
+  grid-area: button;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  background-color: rgb(48, 37, 255);
+  color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
   cursor: pointer;
+  border-radius: 15px;
+  align-self: center;
   transition: background-color 0.3s ease;
 }
 
 .tile-footer button:hover {
-  background-color: #45a049;
+  background-color: #b730fa;
 }
 
 .timer {
