@@ -1,0 +1,47 @@
+{
+    "activities": [
+      {
+        "id": "1",
+        "user": "John",
+        "title": "Football Match",
+        "option": "Team A",
+        "wager": 50,
+        "status": "closed",
+        "outcome": "Win",
+        "payout": 125,
+        "timestamp": "2023-05-26T15:30:00Z"
+      },
+      {
+        "id": "2",
+        "user": "Sarah",
+        "title": "Basketball Game",
+        "option": "Team B",
+        "wager": 30,
+        "status": "closed",
+        "outcome": "Loss",
+        "payout": 0,
+        "timestamp": "2023-05-25T19:45:00Z"
+      },
+      {
+        "id": "3",
+        "user": "John",
+        "title": "Tennis Match",
+        "option": "Player A",
+        "wager": 20,
+        "status": "active",
+        "timestamp": "2023-05-24T10:15:00Z"
+      },
+      {
+        "id": "4",
+        "user": "Mark",
+        "title": "Baseball Game",
+        "option": "Team B",
+        "wager": 40,
+        "status": "closed",
+        "outcome": "Win",
+        "payout": 60,
+        "timestamp": "2023-05-23T18:00:00Z"
+      }
+    ]
+  }
+  

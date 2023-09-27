@@ -64,7 +64,9 @@
 }
 
 .confirmation-value {
+  position: relative;
   font-weight: bold;
+  text-align: center;
 }
 
 .confirmation-message {

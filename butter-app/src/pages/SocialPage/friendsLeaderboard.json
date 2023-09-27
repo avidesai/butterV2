@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "playerName": "Friend 1",
+      "dateStarted": "02/21",
+      "totalBetsMade": 12,
+      "monthlyProfitLoss": "25,710"
+    },
+    {
+      "id": 2,
+      "playerName": "Friend 2",
+      "dateStarted": "08/20",
+      "totalBetsMade": 9,
+      "monthlyProfitLoss": "15,820"
+    },
+    {
+      "id": 3,
+      "playerName": "Friend 3",
+      "dateStarted": "03/19",
+      "totalBetsMade": 6,
+      "monthlyProfitLoss": "12,630"
+    },
+    {
+      "id": 4,
+      "playerName": "Friend 4",
+      "dateStarted": "10/18",
+      "totalBetsMade": 4,
+      "monthlyProfitLoss": "8,910"
+    },
+    {
+      "id": 5,
+      "playerName": "Friend 5",
+      "dateStarted": "06/17",
+      "totalBetsMade": 2,
+      "monthlyProfitLoss": "6,520"
+    }
+  ]
+  

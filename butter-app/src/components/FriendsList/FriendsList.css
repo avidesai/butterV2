@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+.friends-list {
+  font-family: 'Rubik', sans-serif;
+  background-color: rgba(174, 174, 174, 0.18);
+  padding: 15px 20px 30px 20px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px #ccc;
+  font-size: 16px;
+  margin: 20px 65px 55px 65px;
+}
+
+.friends-list h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.friends-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.friends-table th,
+.friends-table td {
+  border: 1px solid rgba(77, 77, 77, 0.242);
+  padding: 10px;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.player-name {
+  width: 80%;
+  font-weight: bold;
+  color: rgb(48, 37, 255);
+}

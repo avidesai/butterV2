@@ -1,0 +1,46 @@
+.past-bets {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  margin: 20px 45px 50px 45px;
+}
+
+.past-bets h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.past-bets-table {
+  border-collapse: collapse;
+}
+
+.past-bets-table th,
+.past-bets-table td {
+  border: 1px solid rgba(77, 77, 77, 0.242);
+  padding: 10px;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.player-name {
+  width: 80%;
+  font-weight: bold;
+  color: rgb(48, 37, 255);
+}
+
+.profit-loss {
+  color: #0ba522;
+  font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(174, 174, 174, 0.18);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #ccc;
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 40px;
+  }
+  
+  .chat-title {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .chat-window {
+    max-height: 225px;
+    overflow-y: auto;
+  }
+  
+  .chat-message {
+    border-bottom: 1px solid rgba(77, 77, 77, 0.242);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+  
+  .chat-username {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: rgb(48, 37, 255);
+  }
+  
+  .chat-text {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 8px;
+  }
+  
+  .chat-form {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .chat-input {
+    font-family: 'Rubik', sans-serif;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(77, 77, 77, 0.242);
+    margin-right: 8px;
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  
+  .chat-submit-button {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(48, 37, 255);
+    color: white;
+    padding: 14px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
