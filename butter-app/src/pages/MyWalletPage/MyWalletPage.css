@@ -23,16 +23,9 @@ p {
   margin-bottom: 40px;
 }
 
-.bets-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-  justify-content: space-between; /* Added to distribute components evenly */
-}
-
 .active-bets,
 .past-bets {
-  flex: 1;
+  width: 48%; /* Each component takes up 48% of the horizontal space */
   padding: 20px;
+  flex: 1;
 }

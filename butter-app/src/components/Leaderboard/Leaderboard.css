@@ -1,8 +1,7 @@
 .leaderboard {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 45px 65px 55px 65px;
   font-family: 'Rubik', sans-serif;
 }
 

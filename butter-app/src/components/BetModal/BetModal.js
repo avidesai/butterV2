@@ -79,7 +79,7 @@ const BetModal = ({ isOpen, closeModal, handleBetAmount, data }) => {
                 value={betAmount}
                 onChange={handleBetInputChange}
                 className="bet-amount-input"
-                placeholder="Wager Amount"
+                placeholder="Wager"
               />
               <button type="submit" disabled={!isOptionSelected}>Submit</button>
             </form>

@@ -1,3 +1,5 @@
+/* BetModal.css */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -109,9 +111,9 @@
 }
 
 .bet-amount-input {
-  width: 45%;
+  width: 25%;
   font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   color: #333;
   padding: 10px;
   padding-left: 20px;
@@ -134,4 +136,12 @@
 
 .modal-content button[type="submit"]:hover {
   background-color: #b730fa;
+}
+
+.choice-container input[type="radio"]:hover,
+.choice-container input[type="radio"]:checked + label:hover,
+.choice-container input[type="radio"] + label:hover,
+.entry-form input[type="submit"]:hover,
+.bet-modal-close-button:hover {
+  cursor: pointer;
 }
